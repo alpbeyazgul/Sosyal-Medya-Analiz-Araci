@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#veri-listesi {
+    margin: 20px auto;
+    width: 600px;
+}
+
+.veri {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.veri h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.veri p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
