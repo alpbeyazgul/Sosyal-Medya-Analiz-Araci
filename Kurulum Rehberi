@@ -1,0 +1,29 @@
+# Sosyal Medya Analiz Aracı Kurulum Rehberi
+
+Bu rehberde, "Sosyal Medya Analiz Aracı"nın nasıl kurulacağına dair adım adım talimatlar yer almaktadır.
+
+## Gereksinimler
+
+- Web sunucusu (ör. Apache, Nginx)
+- PHP 7.0 veya üzeri
+- MySQL veritabanı
+- jQuery kütüphanesi
+- Bootstrap CSS framework
+
+## Kurulum Adımları
+
+1. Web sunucusu üzerinde bir klasör oluşturun ve projeyi bu klasöre kopyalayın.
+
+2. MySQL veritabanında yeni bir veritabanı oluşturun ve gerekli tabloları içeren bir SQL dosyasını çalıştırın.
+
+3. `config.php` adında bir dosya oluşturun ve aşağıdaki gibi veritabanı bağlantı bilgilerini içeren bir yapılandırma dosyası ekleyin:
+
+```php
+<?php
+
+$host = "localhost";
+$db_name = "veritabani_adi";
+$username = "kullanici_adi";
+$password = "sifre";
+
+?>
